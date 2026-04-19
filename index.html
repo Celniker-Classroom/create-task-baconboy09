@@ -7,7 +7,24 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Your html goes here...</h1>
-    <br>See the <a href="README.md">README</a> for project details
+    <h1 id="title">Add flashcards here!</h1>
+    
+    <form>
+  <label for="fname" name="enter">Name:</label><br>
+  <input type="text" id="fname" name="enter"><br>
+  <label for="lname" name="enter">Definition:</label><br>
+  <input type="text" id="fdef" name="enter">
+  <br>
+  <input type="button" id="pushBtn" name='enter' value="Add!">
+</form>
+<h3 name='learn' id="current"></h3>
+<br>
+<input type="button" name="learn" id="next" value="Next">
+
+<input type="button" name="learn" id="flipr" value="Flip">
+<br>
+<div id="flashcards" name="enter"></div>
+<input type="button" id="mode" value="Mode">
+
 </body>
 </html>
