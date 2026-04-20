@@ -6,9 +6,18 @@
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
 </head>
+<!--my create task project is a flashcards app. you can add flashcards and then switch to study mode to flip through them. -->
 <body>
     <h1 id="title">Add flashcards here!</h1>
-    
+    <h2 name="learn" id="type"></h2>
+<br>
+<h3 name='learn' id="current"></h3>
+<br>
+<input type="button" name="learn" id="next" value="Next">
+<input type="button" name="learn" id="shuffle" value="Shuffle">
+<input type="button" name="learn" id="flipr" value="Flip">
+<label for="iterations" name="learn">Shuffle iterations:</label>
+<input type="number" name="learn" id="iterations" value="1" min="1">
     <form>
   <label for="fname" name="enter">Name:</label><br>
   <input type="text" id="fname" name="enter"><br>
@@ -17,11 +26,7 @@
   <br>
   <input type="button" id="pushBtn" name='enter' value="Add!">
 </form>
-<h3 name='learn' id="current"></h3>
-<br>
-<input type="button" name="learn" id="next" value="Next">
 
-<input type="button" name="learn" id="flipr" value="Flip">
 <br>
 <div id="flashcards" name="enter"></div>
 <input type="button" id="mode" value="Mode">
